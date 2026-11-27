@@ -1,0 +1,19 @@
+# Java / Gradle
+target/
+build/
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+application-local.properties
+*.env
